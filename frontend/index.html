@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Yadav | Portfolio</title>
+    <!-- Tailwind CSS for modern, clean styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for platform icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="sticky top-0 z-50 bg-white shadow-sm backdrop-blur-md bg-white/90">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-blue-600 tracking-tight">AY.dev</a>
+            <nav class="space-x-6 text-sm font-medium text-gray-600">
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#profiles" class="hover:text-blue-600 transition">Profiles</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="about" class="max-w-5xl mx-auto px-4 py-20 text-center md:text-left md:flex md:items-center md:justify-between">
+        <div class="max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
+                Hi, I'm <span class="text-blue-600">Anurag Yadav</span>
+            </h1>
+            <p class="text-xl text-gray-600 mb-6 font-medium">
+                AI/ML Developer & Full-Stack Programmer
+            </p>
+            <p class="text-gray-600 leading-relaxed mb-8">
+                I am a passionate developer focused on building intelligent systems, robust backends, and solving complex algorithmic problems. Check out my coding footprints and recent engineering projects below.
+            </p>
+            <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                <a href="mailto:your.email@example.com" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition flex items-center gap-2">
+                    <i class="fas fa-envelope"></i> Contact Me
+                </a>
+                <a href="#projects" class="border border-gray-300 hover:border-gray-400 text-gray-700 font-semibold px-6 py-3 rounded-lg transition">
+                    View My Work
+                </a>
+            </div>
+        </div>
+        <!-- Profile Placeholder Graphic -->
+        <div class="mt-10 md:mt-0 flex justify-center">
+            <div class="w-48 h-48 rounded-full bg-gradient-to-tr from-blue-500 to-indigo-600 flex items-center justify-center text-white text-5xl font-bold shadow-lg">
+                AY
+            </div>
+        </div>
+    </section>
+
+    <hr class="max-w-5xl mx-auto border-gray-200">
+
+    <!-- CODING & SOCIAL PROFILES (The HR Dashboard) -->
+    <section id="profiles" class="max-w-5xl mx-auto px-4 py-16">
+        <h2 class="text-2xl font-bold text-gray-900 mb-2">Coding & Professional Profiles</h2>
+        <p class="text-gray-600 mb-8">Track my live problem-solving metrics, repositories, and professional network across platforms.</p>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- GitHub -->
+            <a href="https://github.com/your-username" target="_blank" class="p-5 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition block group">
+                <div class="flex items-center gap-4">
+                    <i class="fab fa-github text-3xl text-gray-900"></i>
+                    <div>
+                        <h3 class="font-bold text-gray-900 group-hover:text-blue-600 transition">GitHub</h3>
+                        <p class="text-xs text-gray-500">Repositories & Open Source</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- LeetCode -->
+            <a href="https://leetcode.com/your-username" target="_blank" class="p-5 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition block group">
+                <div class="flex items-center gap-4">
+                    <i class="fas fa-code text-3xl text-yellow-600"></i>
+                    <div>
+                        <h3 class="font-bold text-gray-900 group-hover:text-blue-600 transition">LeetCode</h3>
+                        <p class="text-xs text-gray-500">Data Structures & Algos</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- GeeksforGeeks / Hackerrank -->
+            <a href="https://www.geeksforgeeks.org/user/your-username/" target="_blank" class="p-5 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition block group">
+                <div class="flex items-center gap-4">
+                    <i class="fas fa-graduation-cap text-3xl text-green-600"></i>
+                    <div>
+                        <h3 class="font-bold text-gray-900 group-hover:text-blue-600 transition">GeeksforGeeks</h3>
+                        <p class="text-xs text-gray-500">Problem Solving Matrix</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com/in/your-username" target="_blank" class="p-5 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition block group">
+                <div class="flex items-center gap-4">
+                    <i class="fab fa-linkedin text-3xl text-blue-700"></i>
+                    <div>
+                        <h3 class="font-bold text-gray-900 group-hover:text-blue-600 transition">LinkedIn</h3>
+                        <p class="text-xs text-gray-500">Professional Network</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <hr class="max-w-5xl mx-auto border-gray-200">
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section id="projects" class="max-w-5xl mx-auto px-4 py-16">
+        <h2 class="text-2xl font-bold text-gray-900 mb-2">Featured Projects</h2>
+        <p class="text-gray-600 mb-8">Key engineering architectures and intelligence systems I've designed.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="bg-white border border-gray-100 rounded-xl shadow-sm overflow-hidden flex flex-col justify-between">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold text-gray-900">uApply Job Recommendation System</h3>
+                        <span class="bg-blue-50 text-blue-700 text-xs font-semibold px-2.5 py-1 rounded">AI / Backend</span>
+                    </div>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        An intelligent job recommendation engine designed to match candidates with corporate roles seamlessly. Features an optimized Python/Flask backend utilizing machine learning similarity scoring structures to align user profiles with real-time job matrices.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Python</span>
+                        <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Flask</span>
+                        <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Scikit-Learn</span>
+                        <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">REST API</span>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 border-t border-gray-50 flex gap-4 text-sm font-medium">
+                    <a href="#" class="text-blue-600 hover:text-blue-800 flex items-center gap-1"><i class="fab fa-github"></i> Source Code</a>
+                    <a href="#" class="text-gray-500 hover:text-gray-700 flex items-center gap-1"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="bg-white border border-gray-100 rounded-xl shadow-sm overflow-hidden flex flex-col justify-between">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold text-gray-900">SmartSIM AI Assistant</h3>
+                        <span class="bg-purple-50 text-purple-700 text-xs font-semibold px-2.5 py-1 rounded">College Project</span>
+                    </div>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        An interactive telecom/SIM assistance program built using AI logic frameworks. Designed to intelligently resolve customer telecom queries, process user data parameters, and optimize basic account handling workflows via an automated agent interface.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Artificial Intelligence</span>
+                        <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Python</span>
+                        <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Natural Language Processing</span>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 border-t border-gray-50 flex gap-4 text-sm font-medium">
+                    <a href="#" class="text-blue-600 hover:text-blue-800 flex items-center gap-1"><i class="fab fa-github"></i> Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="max-w-5xl mx-auto border-gray-200">
+
+    <!-- TECHNICAL SKILLS MAPPING -->
+    <section id="skills" class="max-w-5xl mx-auto px-4 py-16">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">Technical Arsenal</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div>
+                <h3 class="font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-blue-600"></span> Core Languages
+                </h3>
+                <ul class="space-y-2 text-sm text-gray-600">
+                    <li>Python (Advanced)</li>
+                    <li>C / C++</li>
+                    <li>JavaScript / HTML / CSS</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-green-600"></span> AI & Frameworks
+                </h3>
+                <ul class="space-y-2 text-sm text-gray-600">
+                    <li>Machine Learning / NLP</li>
+                    <li>Flask / Web Micro-frameworks</li>
+                    <li>Scikit-Learn & Data Ecosystems</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-purple-600"></span> Developer Tools
+                </h3>
+                <ul class="space-y-2 text-sm text-gray-600">
+                    <li>Git & GitHub Version Control</li>
+                    <li>Virtual Environments (venv)</li>
+                    <li>Linux CLI / Windows Environment</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-8 mt-12 border-t border-gray-800">
+        <div class="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
+            <p>&copy; 2026 Anurag Yadav. All rights reserved.</p>
+            <p class="text-gray-500">Built with Tailwind CSS & HTML5</p>
+        </div>
+    </footer>
+
+</body>
+</html>
